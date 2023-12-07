@@ -1,0 +1,58 @@
+{
+  "name": "@insolva-dev/material-ui-datetimepicker",
+  "version": "0.0.1",
+  "description": "Wrapper above material ui date and time pickers",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "set NODE_ENV=production && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Suman9830/material-ui-datetimepicker"
+  },
+  "keywords": [
+    "material-ui",
+    "material",
+    "ui",
+    "datepicker",
+    "timepicker",
+    "datetimepicker",
+    "material-ui-datetimepicker"
+  ],
+  "homepage": "https://github.com/Suman9830/material-ui-datetimepicker",
+  "author": "Suman Debnath <sumanhomingnote@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@mui/material": "5.14.20",
+    "@mui/icons-material": "5.14.19",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "moment": "^2.0.0",
+    "peer-deps-externals-webpack-plugin": "^1.0.2",
+    "prop-types": "^15.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^3.5.1",
+    "webpack-bundle-analyzer": "2.9.2",
+    "webpack-node-externals": "1.6.0"
+  }
+}
